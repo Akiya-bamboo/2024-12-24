@@ -1,0 +1,42 @@
+*{
+    position: relative;
+    
+}
+
+body{
+    background-color: rgb(21, 51, 90);
+
+}
+.main{
+    height: 500px;
+    width: 500px;
+    margin: 100px auto;
+    padding: 25px;
+    box-shadow:5px 8px 10px -10px rgb(47, 48, 48) ;
+    border-radius: 50%;
+    background-color: rgb(161, 199, 213);
+    overflow: hidden;
+}
+
+h3{
+    text-align: center;
+    color: #15648e;
+}
+
+.circle{
+    position: absolute;
+    top: 170px;
+    left: 160px;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: #387393;
+}
+
+.circle img{
+    width: 450px;
+    height: 450px;
+    bottom: 110px;
+    right: 110px;
+}
+

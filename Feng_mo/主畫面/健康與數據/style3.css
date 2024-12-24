@@ -1,0 +1,53 @@
+*{
+    position: relative;
+    
+}
+
+body{
+    background-color: rgb(21, 51, 90);
+
+}
+.main{
+    height: 500px;
+    width: 500px;
+    margin: 100px auto;
+    padding: 25px;
+    box-shadow:5px 8px 10px -10px rgb(47, 48, 48) ;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+h3{
+    text-align: center;
+    color: #15648e;
+}
+
+.date{
+    text-align: center;
+    width: 150px;
+    height: 25px;
+    background-color: rgb(109, 156, 200);
+    border-radius: 50px;
+    left: 170px;
+}
+
+.square{
+    position: absolute;
+    left: 125px;
+    bottom: 270px;
+    background-color: rgb(174, 182, 192);
+    width: 300px;
+    height: 150px;
+    border-radius: 30px;
+}
+
+.date2{
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    top: 350px;
+    left: 170px;
+    background-color: rgb(109, 156, 200);
+    border-radius: 50px;
+}
